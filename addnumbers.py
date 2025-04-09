@@ -12,12 +12,14 @@ def HelloTen():
 
 
 def CheckHit(hitTarget, diceRoll):
+    result = False
     if diceRoll >= hitTarget:
         print("That is a hit!")
         return True
     else:
         print("That is a miss!")
         return False
+    return result 
 
 x = 5
 y = 10
